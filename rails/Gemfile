@@ -19,8 +19,11 @@ gem 'rails', '~> 7.0.4'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
-  # pry コンソールを使えるようにする。
+  # pryコンソールを使えるようにする。
   gem 'pry-byebug'
   gem 'pry-doc'
   gem 'pry-rails'
+
+  # テストフレームワークrspecの導入
+  gem 'rspec-rails'
 end
