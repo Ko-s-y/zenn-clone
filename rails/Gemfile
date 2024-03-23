@@ -24,6 +24,11 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-rails'
 
+  # rubocop を使えるようにする。
+  gem 'rubocop-faker'
+  gem 'rubocop-rails'
+  gem 'rubocop-rspec'
+
   # テストフレームワークrspecの導入
   gem 'rspec-rails'
 end
