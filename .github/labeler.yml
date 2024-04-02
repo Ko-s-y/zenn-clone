@@ -1,0 +1,7 @@
+# Branch pattern
+feature:
+  - head-branch: ['^feature/']
+hotfix:
+  - head-branch: ['^hotfix/', '^fix/']
+bug:
+  - head-branch: ['^bug/']
