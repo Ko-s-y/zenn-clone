@@ -5,3 +5,5 @@ hotfix:
   - head-branch: ['^hotfix/', '^fix/']
 bug:
   - head-branch: ['^bug/']
+release:
+  - head-branch: ['^staging']
