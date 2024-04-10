@@ -1,6 +1,8 @@
 class Article < ApplicationRecord
   belongs_to :user
 
+  scope :order_by_newest, -> { order(created_at: :desc) }
+
   enum :status, {
     unsaved: 10,
     draft: 20,
