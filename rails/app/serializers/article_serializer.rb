@@ -1,5 +1,5 @@
 class ArticleSerializer < ActiveModel::Serializer
-  attributes :id, :title, :content, :created_at, :from_today
+  attributes :id, :title, :content, :status_i18n, :created_at, :from_today
   belongs_to :user, serializer: UserSerializer
 
   def created_at
