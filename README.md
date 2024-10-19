@@ -1,18 +1,14 @@
 ## 共通
 
-- build
+- build, up
 ```
 docker compose build --no-cache
-```
-
-- 確認
-```
-docker compose up -d
+docker compose up
 ```
 
 ## FRONTEND
 
-- nextコンテナ
+- nextコンテナ内へ
 ```
 docker compose exec next /bin/bash
 ```
@@ -40,7 +36,7 @@ docker compose run --rm next npm run format
 
 ## BACKEND
 
-- railsコンテナ
+- railsコンテナ内へ
 ```
 docker compose exec rails /bin/bash
 ```
